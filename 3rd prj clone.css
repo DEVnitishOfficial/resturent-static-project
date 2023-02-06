@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+    background-attachment: fixed;
+}
+
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: green;
+    background-image: url(../assets/party.png);
+    background-size: cover;
+}
+
+.navbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 0 80px;
+margin-top: 30px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 40%; 
+    font-size: 15px;
+    padding: 30px;
+    margin-left: 300px;
+}
+.list a{
+    color: #ffc233;
+    font-weight: 400;
+}
+nav div img {
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+div button{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ff505f;
+    color: white;
+    border: none;
+}
+.order{
+    margin-left: 210%;
+    justify-content: center;
+    padding: 10px 15px;
+}
+.content{
+    color: #ffc233;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+}
+.heading{
+  justify-content: center;
+  justify-items: center;
+}
+.content h1{
+    justify-content: center;
+    align-items: center;
+}
+.read{
+    background-color: #ff505f;
+    border: none;
+    color: white;
+    padding: 20px 30px;   
+    margin-left: 200px;
+    font-size: 18px;
+}
+div img{
+ margin-left: 180%;
+ margin-top: 50%;
+ margin-bottom: 2%;
+}
